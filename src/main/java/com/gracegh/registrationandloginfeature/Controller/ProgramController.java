@@ -37,3 +37,5 @@ public class ProgramController {
         return "register_success";
     }
 }
+
+//custom user details class represents the authenticated user...
