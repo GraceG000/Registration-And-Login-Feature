@@ -36,6 +36,11 @@ public class ProgramController {
 
         return "register_success";
     }
+
+    @GetMapping("/list_users")
+    public String viewUsersList(){
+        return "users";
+    }
 }
 
 //custom user details class represents the authenticated user...
